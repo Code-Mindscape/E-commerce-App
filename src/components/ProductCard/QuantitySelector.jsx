@@ -10,14 +10,14 @@ const QuantitySelector = () => {
   const handleDecrement = () => setQuantity(quantity > 1 ? quantity - 1 : 1);
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center' }}>
+    <div className='py-5' style={{ display: 'flex', alignItems: 'center' }}>
       <IconButton onClick={handleDecrement}>
         <RemoveIcon />
       </IconButton>
       <TextField
         value={quantity}
         onChange={(e) => setQuantity(Number(e.target.value))}
-        inputProps={{ style: { textAlign: 'center', width: '40px' } }}
+        inputProps={{ style: { textAlign: 'center', width: '40px', height: '10px' } }}
       />
       <IconButton onClick={handleIncrement}>
         <AddIcon />
