@@ -4,7 +4,9 @@ import HomeImgSlider from "./Home/HomeImgSlider.jsx"
 import HomePage from "./Home/HomePage.jsx"
 import Navigation from "./Navigation/Navigation.jsx"
 import ProductCard from "./ProductCard/ProductCard.jsx"
-HomeImgSlider
+import ProductsPage from "./ProductsPage.jsx/ProductsPage.jsx"
+import SearchRPage from "./SearchPage/SearchRPage.jsx"
+
 
 
 
@@ -15,5 +17,7 @@ export {
     Footer,
     ProductCard,
     HomePage,
-    HomeImgSlider
+    HomeImgSlider,
+    ProductsPage,
+    SearchRPage
 }
